@@ -53,17 +53,24 @@ a{
      color:grey;
 }
 
-
+h2,h3,footer{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
 nav{
   padding-top:60px;
   padding-bottom:100px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size:28px;
+
 }
 
 main h2{
   margin-left:20px;
+ }
+
+main{
+  margin-top:40px;
 }
-
-
 nav li{
       float:left;
       margin-left:40px;
@@ -73,6 +80,8 @@ nav li{
       width:90px;
       padding-top:10px;
       color:white;
+      font-family:'Pathway Gothic One', sans-serif;
+      font-size:28px;
 }
 
 
@@ -97,12 +106,19 @@ nav li{
      position:relative;
      z-index:2;
      text-align:center;
-     height:25px;
+     height:18px;
      width:35px;
+     font-size: 20px;
+     font-family:'Pathway Gothic One', sans-serif;
+     text-align: center;
 }
 
 nav li:hover{
     color:black;
+}
+
+main{
+  margin-top:60px;
 }
 
 .list{
@@ -119,11 +135,10 @@ nav li:hover{
       border-top: 3px solid white;
       -moz-border-radius: 5px;
       position: absolute;
-      padding: 10px;
-      width: 60px;
-      top: 50px;
-      left:0px;
-      line-height:1.5;
+      padding: 5px;
+      width: 55px;
+
+      margin-top: 10px;
 
 
 }
@@ -138,7 +153,6 @@ nav li:hover{
       top: -14px;
       width: 0;
 }
-
 
 .main-list{
   position:relative;

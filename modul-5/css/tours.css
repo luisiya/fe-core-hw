@@ -50,13 +50,16 @@ a{
 nav li{
       float:left;
       margin-left:40px;
-
+      margin-top:10px;
       padding-left:10px;
       height:90px;
       width:90px;
-      padding-top:10px;
+      
       color:white;
+      font-family:'Pathway Gothic One', sans-serif;
+      font-size:28px;
 }
+
 
 
 
@@ -76,12 +79,15 @@ nav li{
      font-size:12px;
      position:relative;
      right:50px;
-     bottom:5px;
+     bottom:15px;
      position:relative;
      z-index:2;
      text-align:center;
-     height:25px;
+     height:8px;
      width:35px;
+     font-size: 20px;
+     font-family:'Pathway Gothic One', sans-serif;
+     text-align: center;
 }
 
 .list li:hover{
@@ -128,10 +134,11 @@ nav{
       width: 0;
 }
 
-
-
+h2,h3,footer{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
 main{
-    
+    margin-top:60px;
     background:white;
  
     padding:0px 40px 40px 40px;
